@@ -3,7 +3,7 @@ package com.example.customhire
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.madp.databinding.ActivityMainBinding
+import com.example.customhire.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button7.setOnClickListener {
+        binding.loginButton.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java)) // Start LoginActivity when the button is clicked
         }
 
-        binding.button2.setOnClickListener {
+        binding.signupText.setOnClickListener {
             startActivity(Intent(this, Register1Activity::class.java)) // Start Register1Activity when the button is clicked
         }
     }
