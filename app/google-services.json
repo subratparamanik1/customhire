@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840552657979",
+    "project_id": "customhire1-c6f58",
+    "storage_bucket": "customhire1-c6f58.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840552657979:android:5c25ce231251f0b4a9d81e",
+        "android_client_info": {
+          "package_name": "com.example.customhire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE3uH5ebc-uxkqCkQH1S5WwNuFs6yg2Gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
