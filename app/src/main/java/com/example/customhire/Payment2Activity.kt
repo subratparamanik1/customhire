@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.customhire.databinding.ActivityPayment2Binding
-import com.example.madp.EditPaymentActivity
+import com.example.customhire.EditPaymentActivity
 
 class Payment2Activity : AppCompatActivity() {
 
