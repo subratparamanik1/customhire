@@ -40,7 +40,7 @@ class ApplyJobEditActivity : AppCompatActivity() {
                 profileIntent.putExtra("email", updatedemail)
                 profileIntent.putExtra("contact", updatedcontact)
                 profileIntent.putExtra("cv", cv)
-                startActivity(profileIntent) // Start ApplyJob3Activity with the updated data
+                startActivity(profileIntent)
 
                 Toast.makeText(this, "Your details updated successfully !", Toast.LENGTH_SHORT).show() // Show a toast message indicating successful update
             } else {

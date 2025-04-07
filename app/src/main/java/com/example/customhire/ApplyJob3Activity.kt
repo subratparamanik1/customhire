@@ -34,13 +34,13 @@ class ApplyJob3Activity : AppCompatActivity() {
             intent.putExtra("email", email)
             intent.putExtra("contact", contact)
             intent.putExtra("cv", cv)
-            startActivity(intent) // Start ApplyJobEditActivity with the provided data
+            startActivity(intent)
         }
 
         // Set click listener for button14
         binding.button14.setOnClickListener {
-            Toast.makeText(this, "You applied the job successfully !", Toast.LENGTH_SHORT).show() // Show a toast message indicating successful job application
-            startActivity(Intent(this, DashboardActivity::class.java)) // Start DashboardActivity
+            Toast.makeText(this, "You applied the job successfully !", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, DashboardActivity::class.java))
         }
     }
 }

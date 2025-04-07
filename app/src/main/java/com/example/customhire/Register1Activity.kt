@@ -45,7 +45,7 @@ class Register1Activity : AppCompatActivity() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Select Gender")
         builder.setSingleChoiceItems(genders, -1) { dialog, which ->
-            binding.gender.text = genders[which] // Set selected gender
+            binding.gender.text = genders[which]
             dialog.dismiss()
         }
         builder.setNegativeButton("Cancel", null)

@@ -39,7 +39,7 @@ class Post2Activity : AppCompatActivity() {
             intent.putExtra("category", category)
             startActivity(intent)
 
-            Toast.makeText(this, "Job ad posted successfully !", Toast.LENGTH_SHORT).show() // Display a toast message to indicate successful job ad posting
+            Toast.makeText(this, "Job ad posted successfully !", Toast.LENGTH_SHORT).show()
         }
     }
 }

@@ -51,15 +51,15 @@ class Post3Activity : AppCompatActivity() {
             editor.remove("category")
             editor.apply()
 
-            Toast.makeText(this, "Job ad deleted successfully !", Toast.LENGTH_SHORT).show() // Display a toast message to indicate successful deletion
+            Toast.makeText(this, "Job ad deleted successfully !", Toast.LENGTH_SHORT).show()
 
             // finish the activity and go back to the previous one
             finish()
-            startActivity(Intent(this, Post3Activity::class.java)) // Finish the activity and go back to the previous one
+            startActivity(Intent(this, Post3Activity::class.java))
         }
 
         binding.button4.setOnClickListener {
-            startActivity(Intent(this, DashboardActivity::class.java)) // Go back to the dashboard activity
+            startActivity(Intent(this, DashboardActivity::class.java))
         }
     }
 }

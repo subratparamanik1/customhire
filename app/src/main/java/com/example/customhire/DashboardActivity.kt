@@ -26,7 +26,6 @@ class DashboardActivity : AppCompatActivity() {
             startActivity(Intent(this, Post1Activity::class.java))
         }
 
-
         // Button to navigate to ApplyJob1Activity
         binding.button.setOnClickListener {
             startActivity(Intent(this, ApplyJob1Activity::class.java))
@@ -36,12 +35,15 @@ class DashboardActivity : AppCompatActivity() {
         binding.imageView3.setOnClickListener {
             Toast.makeText(this, "Already on dashboard", Toast.LENGTH_SHORT).show()
         }
+
         binding.pic.setOnClickListener {
             Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show()
         }
+
         binding.imageView5.setOnClickListener {
             Toast.makeText(this, "Saved clicked", Toast.LENGTH_SHORT).show()
         }
+
         binding.imageView6.setOnClickListener {
             startActivity(Intent(this, ProfileActivity::class.java))
         }

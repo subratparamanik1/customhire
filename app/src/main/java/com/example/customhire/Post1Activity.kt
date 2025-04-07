@@ -35,7 +35,7 @@ class Post1Activity : AppCompatActivity() {
                 startActivity(intent)
             }
             else {
-                Toast.makeText(this, "Empty Fields Are not Allowed !", Toast.LENGTH_SHORT).show() // Display a toast message if any field is empty
+                Toast.makeText(this, "Empty Fields Are not Allowed !", Toast.LENGTH_SHORT).show()
             }
         }
     }

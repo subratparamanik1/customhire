@@ -48,7 +48,7 @@ class PostEditActivity : AppCompatActivity() {
                 profileIntent.putExtra("category", updatedcategory)
                 startActivity(profileIntent)
 
-                Toast.makeText(this, "Job ad updated successfully !", Toast.LENGTH_SHORT).show() // Display a toast message to indicate successful update
+                Toast.makeText(this, "Job ad updated successfully !", Toast.LENGTH_SHORT).show()
             }
         }
     }

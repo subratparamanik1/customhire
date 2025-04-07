@@ -30,18 +30,18 @@ class LoginActivity : AppCompatActivity() {
                 // Sign in with email and password using FirebaseAuth
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        startActivity(Intent(this, DashboardActivity::class.java)) // If login is successful, start DashboardActivity
+                        startActivity(Intent(this, DashboardActivity::class.java))
                     } else {
-                        Toast.makeText(this, "Incorrect email or password !", Toast.LENGTH_SHORT).show() // If login fails, show error message with a toast
+                        Toast.makeText(this, "Incorrect email or password !", Toast.LENGTH_SHORT).show()
                     }
                 }
             } else {
-                Toast.makeText(this, "Empty Fields Are not Allowed !", Toast.LENGTH_SHORT).show() // Show error message when email or password fields are empty
+                Toast.makeText(this, "Empty Fields Are not Allowed !", Toast.LENGTH_SHORT).show()
             }
         }
 
         binding.signupText.setOnClickListener {
-            startActivity(Intent(this, Register1Activity::class.java)) // Start Register1Activity for user registration
+            startActivity(Intent(this, Register1Activity::class.java))
         }
     }
 }

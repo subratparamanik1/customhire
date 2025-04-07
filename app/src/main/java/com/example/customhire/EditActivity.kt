@@ -44,9 +44,9 @@ class EditActivity : AppCompatActivity() {
                 profileIntent.putExtra("address", updatedAddress)
                 profileIntent.putExtra("age", updatedAge)
                 profileIntent.putExtra("gender", updatedGender)
-                startActivity(profileIntent) // Start ProfileActivity with the updated data
+                startActivity(profileIntent)
 
-                Toast.makeText(this, "Profile updated successfully", Toast.LENGTH_SHORT).show() // Show a toast message indicating successful update
+                Toast.makeText(this, "Profile updated successfully", Toast.LENGTH_SHORT).show()
             }
         }
     }

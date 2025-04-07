@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java)) // Start LoginActivity when the button is clicked
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         binding.signupText.setOnClickListener {
-            startActivity(Intent(this, Register1Activity::class.java)) // Start Register1Activity when the button is clicked
+            startActivity(Intent(this, Register1Activity::class.java))
         }
     }
 }
